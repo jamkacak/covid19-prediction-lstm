@@ -13,7 +13,6 @@ This project aims to utilize deep learning, specifically an LSTM (Long Short-Ter
 3. **Single-step Prediction**: The model will predict future cases based on the past 30 days of data.
 4. **MLflow Integration**: Use MLflow to track the training process, hyperparameters, and metrics.
 5. **Prediction and Visualization**: Generate predictions on test data and plot a graph to compare actual vs predicted cases.
-6. **Submission**: Upload all necessary files to GitHub and submit to LMS.
 
 ## Project Requirements
 
@@ -21,14 +20,6 @@ This project aims to utilize deep learning, specifically an LSTM (Long Short-Ter
 - **Model Architecture**: Build an LSTM model with an appropriate architecture for time-series prediction.
 - **MLflow**: Use MLflow to log and track training experiments.
 - **Testing and Visualization**: Generate predictions on test data and visualize the results.
-- **Deliverables**:
-  1. Main Python file containing the complete implementation.
-  2. Model classes and functions.
-  3. Datasets (training and testing).
-  4. Architecture diagram (saved as .png).
-  5. MLflow training results and performance analysis images.
-  6. Graph showing the comparison between predicted and actual COVID-19 cases.
-
 ## Folder Structure
 
 ```
@@ -41,6 +32,8 @@ This project aims to utilize deep learning, specifically an LSTM (Long Short-Ter
 |-- results/
     |-- prediction_vs_actual.png
     |-- mlflow_results.png
+|-- train.ipynb
+|-- time_series_helper.py
 |-- README.md
 ```
 
