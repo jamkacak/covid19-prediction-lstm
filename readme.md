@@ -41,9 +41,6 @@ This project aims to utilize deep learning, specifically an LSTM (Long Short-Ter
 |-- results/
     |-- prediction_vs_actual.png
     |-- mlflow_results.png
-|-- src/
-    |-- data_preprocessing.py
-    |-- model_training.py
 |-- README.md
 ```
 
@@ -66,17 +63,7 @@ pip install -r requirements.txt
 
 ### Step 3: Run the Project
 
-1. **Data Preprocessing**: To preprocess the data, run the following script:
-   ```bash
-   python src/data_preprocessing.py
-   ```
-
-2. **Model Training**: To train the LSTM model, execute the following command:
-   ```bash
-   python src/model_training.py
-   ```
-
-3. **Generate Results and Visualizations**: After training, the predictions and performance evaluation will be saved in the `results/` folder.
+**Model Training**: To train the LSTM model, you have to open the train.ipynb file run the code:
 
 ### Step 4: View the Results
 
@@ -110,11 +97,11 @@ The following image shows the training results and metrics tracked by MLflow:
 
 ## Dataset
 
-The dataset used in this project is the official COVID-19 dataset for Malaysia, which can be found at [MoH Malaysia GitHub Repository](https://github.com/MoHMalaysia/covid19-public). It contains the daily reported cases of COVID-19 in Malaysia, which is used to train and test the prediction model.
+The dataset used in this project is the official COVID-19 dataset for Malaysia, which can be found at [MoH Malaysia GitHub Repository](https://github.com/MoH-Malaysia/covid19-public/tree/main). It contains the daily reported cases of COVID-19 in Malaysia, which is used to train and test the prediction model.
 
 ## Credits
 
-- **Dataset**: MoH Malaysia - [COVID-19 Data](https://github.com/MoHMalaysia/covid19-public)
+- **Dataset**: MoH Malaysia - [COVID-19 Data](https://github.com/MoH-Malaysia/covid19-public/blob/main/epidemic/cases_malaysia.csv)
 - **Libraries**: 
   - TensorFlow/Keras for the LSTM model
   - MLflow for experiment tracking
@@ -122,9 +109,8 @@ The dataset used in this project is the official COVID-19 dataset for Malaysia, 
 
 ## Submission Details
 
-- Main Python file: `model_training.py`
-- Classes: `LSTM_model.py`
-- Dataset: `dataset/`
+- Main Python file: `train.ipynb`
+- Dataset: `datasest/`
 - Architecture diagram: `model/model_architecture.png`
 - Training and performance results images: `results/`
 - GitHub URL: [GitHub Repository Link](https://github.com/jamkacak/covid19-prediction-lstm)
