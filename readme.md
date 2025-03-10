@@ -20,6 +20,7 @@ This project aims to utilize deep learning, specifically an LSTM (Long Short-Ter
 - **Model Architecture**: Build an LSTM model with an appropriate architecture for time-series prediction.
 - **MLflow**: Use MLflow to log and track training experiments.
 - **Testing and Visualization**: Generate predictions on test data and visualize the results.
+
 ## Folder Structure
 
 ```
