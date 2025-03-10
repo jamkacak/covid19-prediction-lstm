@@ -127,5 +127,5 @@ The dataset used in this project is the official COVID-19 dataset for Malaysia, 
 - Dataset: `dataset/`
 - Architecture diagram: `model/model_architecture.png`
 - Training and performance results images: `results/`
-- GitHub URL: [GitHub Repository Link](https://github.com/yourusername/covid19-prediction-lstm)
+- GitHub URL: [GitHub Repository Link](https://github.com/jamkacak/covid19-prediction-lstm)
 
